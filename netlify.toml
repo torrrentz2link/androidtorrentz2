@@ -1,0 +1,15 @@
+
+[[redirects]]
+  from = "/search/*"
+  to = "/search/index.html"
+
+  # The default HTTP status code is 301, but you can define a different one.
+  status = 200
+
+  # By default, redirects won't be applied if there's a file with the same
+  # path as the one defined in the `from` property. Setting `force` to `true`
+  # will make the redirect rule take precedence over any existing files.
+  force = true
+  # Redirect from /old-path?id=123 to /new-path. Each combination of query
+  # params needs to be defined in a separate [[redirects]] block.
+  # More information at https://docs.netlify.com/routing/redirects/redirect-options/#query-parameters

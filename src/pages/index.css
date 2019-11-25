@@ -1,0 +1,12 @@
+.show-mobile { display: none; }
+
+@media (max-width: 767px) {
+.show-mobile { display: inline; font-weight: 400; }
+}
+
+.center-magnet { margin-left: 0; }
+
+
+@media (min-width: 767px) {
+.center-magnet{ margin-left: 40%; }
+}
