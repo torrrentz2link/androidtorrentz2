@@ -130,7 +130,7 @@ const isError = (error) => (<Message icon negative size='mini'>
 
 const http = axios.create({
     timeout: 120000,
-    baseURL: "https://torrentsfreelancer.herokuapp.com/"
+    baseURL: "https://androidtorrentz2.herokuapp.com/"
 })
 // .create({
 // //   baseURL: 'https://3000-f7a9f611-984b-4cc3-a802-859bf1fe449b.ws-ap0.gitpod.io/torrents',
